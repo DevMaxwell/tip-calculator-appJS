@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+body{
+    margin: 7rem;
+    background-color:hsl(185, 41%, 84%);
+    font-family: 'Space Mono', monospace;
+}
+.header{
+    text-align: center;
+    color: hsl(183, 100%, 15%);
+}
+.App{
+    width: 60%;
+    position: relative;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    box-shadow: 0px 12px 24px -12px hsl(186, 58%, 73%);
+-webkit-box-shadow: 0px 12px 24px -12px hsl(186, 58%, 73%);
+}
+.App input{
+    border: none;
+    width: 80%;
+    padding: 6px;
+    padding-left:30px;
+    font-size: 24px;
+    text-align: right;
+}
+.App input:focus{
+    outline: none;
+}
+.App input.bill{
+    background: url(images/icon-dollar.svg) no-repeat scroll hsl(189, 41%, 97%) 7px 7px;
+}
+.App input.person{
+    background: url(images/icon-person.svg) no-repeat scroll hsl(189, 41%, 97%) 7px 7px;
+}
+.left{
+    width: 50%;
+}
+.left p{
+    font-size: 12px;
+}
+.mid{
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.btns{
+    padding: 8px;
+    margin: 4px;
+}
+.btns button{
+    width: 30%;
+    float: left;
+    background-color:  hsl(183, 100%, 15%);
+    color: white;
+    border: none;
+    margin-left: 6px;
+    margin-bottom: 6px;
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.btns .custom{
+    background-color: hsl(189, 41%, 97%);
+    padding: 0;
+    height: 26px;
+    color:  hsl(183, 100%, 15%);
+}
+.btns .custom input {
+    background-color: hsl(189, 41%, 97%);
+    position: relative;
+    padding: 0;
+    font-size: 18px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    color: hsl(183, 100%, 15%);
+}
+.btns .custom input::placeholder {
+    color: hsl(183, 100%, 15%);
+}
+.btns button:hover{
+    background-color: hsl(172, 67%, 45%);
+    color:  hsl(183, 100%, 15%);
+}
+.btns button:active{
+    background-color: hsl(172, 67%, 45%);
+    color:  hsl(183, 100%, 15%);
+}
+.right{
+    background-color: hsl(183, 100%, 15%);
+    padding: 15px;
+    width: 50%;
+    border-radius: 15px;
+}
+.right button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    border: none;
+    background-color: hsl(172, 67%, 45%);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.right .splitTip, .splitAmt{
+    color:  hsl(172, 67%, 45%);
+    font-size: 32px;
+    text-align: right;
+}
+.right .splitTip{
+    margin-top: 0;
+}
+.right span{
+    font-size: 12px;
+    color: white;
+    width: 50%;
+    float: left;
+}
