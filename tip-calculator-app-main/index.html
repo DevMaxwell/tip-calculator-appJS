@@ -21,23 +21,23 @@
   <div class="App">
   <div class="left">
   <p> Bill </p>
-  <input type="text" class="bill">
+  <input type="number" class="bill" id="bill">
   
   <div class="mid">
   <p class="billTip">Select Tip %</p>
   <div class="btns">
-  <button> 5% </button>
-  <button> 10% </button>
-  <button> 15% </button>
+  <button class="cust1" value="5"> 5% </button>
+  <button class="cust2" value="10"> 10% </button>
+  <button class="cust3" value="15"> 15% </button>
   <br>
-  <button> 25% </button>
-  <button> 50% </button>
-  <button class="custom"> <input type="text" value="" placeholder="Custom"></button>
+  <button class="cust4" value="25"> 25% </button>
+  <button class="cust5" value="50"> 50% </button>
+  <button class="custom"> <input type="number" placeholder="Custom" class="customInput"></button>
   </div>
   </div>
 
   <p class="billPeople">Number of People</p>
-  <input type="text" class="person">
+  <input type="number" class="person" id="person"> 
   </div>
 
   <div class="right">
@@ -46,16 +46,16 @@
     <br>
     <small> / person </small></p>
   </span>
-    <p class="splitTip">$4.27</p>
+    <p class="splitTip">$0.00</p>
 
     <span>
   <p>  Total
     <br>
    <small> / person </small></p>
   </span>
-  <p class="splitAmt">$32.79</p>
+  <p class="splitAmt">$0.00</p>
 
-  <button>Reset</button>
+  <button class="reset">Reset</button>
   </div>
   </div>
   <!--
