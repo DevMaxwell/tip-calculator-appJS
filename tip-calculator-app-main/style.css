@@ -144,7 +144,6 @@ input[type=number] {
       margin-right: 0;
     }
     .header{
-        font-size: 22px;
         font-weight: 200;
     }
     .App{
@@ -169,11 +168,12 @@ input[type=number] {
     }
     .right button{
         top: 5px;
+        text-decoration: none;
     }
 }
 @media screen and (min-width: 800px) and (max-width: 1200px) {
     body {
-      background-color: lightgreen;
+      
     }
     .App{
         width: 80%;
