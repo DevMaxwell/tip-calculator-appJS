@@ -163,6 +163,9 @@ input[type=number] {
         width: 90%;
         margin: 0 auto;
     }
+    .billPeople{
+        padding: 15px 0;
+    }
     .right{
         width: 90%;
         margin: 0 auto;
@@ -170,7 +173,7 @@ input[type=number] {
         box-sizing: border-box;
     }
     .right button{
-        top: 5px;
+        top: 2px;
         text-decoration: none;
         color:  hsl(183, 100%, 15%);
         letter-spacing: 4px;
