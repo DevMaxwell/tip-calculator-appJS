@@ -139,10 +139,13 @@ input[type=number] {
 }
 @media screen and (min-width: 375px) and (max-width: 900px) {
     body {
-      background-color: lightgreen;
       width: 100%;
       margin: 0;
       margin-right: 0;
+    }
+    .header{
+        font-size: 22px;
+        font-weight: 200;
     }
     .App{
         width: 100%;
