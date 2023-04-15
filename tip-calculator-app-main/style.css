@@ -172,6 +172,9 @@ input[type=number] {
     .right button{
         top: 5px;
         text-decoration: none;
+        color:  hsl(183, 100%, 15%);
+        letter-spacing: 4px;
+        font-weight: 300;
     }
 }
 @media screen and (min-width: 800px) and (max-width: 1200px) {
