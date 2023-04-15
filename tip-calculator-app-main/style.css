@@ -169,7 +169,7 @@ input[type=number] {
     .right{
         width: 90%;
         margin: 0 auto;
-        margin-top: 15px;
+        margin-top: 30px;
         box-sizing: border-box;
     }
     .right button{
@@ -177,7 +177,7 @@ input[type=number] {
         text-decoration: none;
         color:  hsl(183, 100%, 15%);
         letter-spacing: 4px;
-        font-weight: 300;
+        font-weight: 500;
     }
 }
 @media screen and (min-width: 800px) and (max-width: 1200px) {
