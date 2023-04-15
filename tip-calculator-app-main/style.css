@@ -4,6 +4,9 @@ body{
     background-color:hsl(185, 41%, 84%);
     font-family: 'Space Mono', monospace;
 }
+*{
+    font-family: 'Space Mono', monospace;
+}
 .header{
     text-align: center;
     color: hsl(183, 100%, 15%);
@@ -28,6 +31,7 @@ body{
     padding-left:30px;
     font-size: 24px;
     text-align: right;
+    color: hsl(183, 100%, 15%);
 }
 .App input:focus{
     outline: none;
@@ -87,7 +91,7 @@ body{
     background-color: hsl(172, 67%, 45%);
     color:  hsl(183, 100%, 15%);
 }
-.btns button:active{
+.btns button:focus{
     background-color: hsl(172, 67%, 45%);
     color:  hsl(183, 100%, 15%);
 }
@@ -132,4 +136,43 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+}
+@media screen and (min-width: 375px) and (max-width: 900px) {
+    body {
+      background-color: lightgreen;
+      width: 100%;
+      margin: 0;
+      margin-right: 0;
+    }
+    .App{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+    .App input {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .left{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .right{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 15px;
+        box-sizing: border-box;
+    }
+    .right button{
+        top: 5px;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    body {
+      background-color: lightgreen;
+    }
+    .App{
+        width: 80%;
+    }
 }
