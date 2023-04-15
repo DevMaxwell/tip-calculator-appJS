@@ -15,8 +15,6 @@ let realTipShare = 0
 let realAmountShare = 0
 let billValue = 0
 let persons = 0
-people.value = 0
-bill.value = 0
 
 bill.addEventListener('change', (e)=>{
     console.log('bill change!')
@@ -40,6 +38,8 @@ custom.addEventListener('change', (e)=> {
 })
 cust1.addEventListener('click', (e)=>{
     console.log('we got here')
+    //cust1.style.color = 'hsl(183, 100%, 15%)'
+    //cust1.style["padding-top"] = 'hsl(183, 100%, 15%)'
     getTip(cust1.value);
 })
 cust2.addEventListener('click', (e)=>{
